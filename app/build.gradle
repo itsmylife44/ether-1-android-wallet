@@ -106,7 +106,7 @@ dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.0.2'
     implementation 'me.grantland:autofittextview:0.2.1'
     implementation 'com.github.deano2390:MaterialShowcaseView:1.2.0@aar'
-    implementation("com.mikepenz:materialdrawer:5.9.1@aar") {
+    implementation('com.mikepenz:materialdrawer:5.9.1@aar') {
         transitive = true
     }
 }
