@@ -37,5 +37,3 @@ Ether-1 Android Wallet is a beautifully designed, easy to use, secure and Open S
 ## Licence
 GPL3
 
-## Community
-Visit us on [/r/Lunary](https://www.reddit.com/r/lunary/)
