@@ -238,13 +238,13 @@ public class Dialogs {
                 ExchangeCalculator.getInstance().displayEthNicelyExact(
                         ExchangeCalculator.getInstance().weiToEther(tx.getGasUsed() * tx.getGasprice())
                 )
-                        + " Ξ"
+                        + " ETHO"
         );
         txcost2.setText(
                 ExchangeCalculator.getInstance().convertToUsd(ExchangeCalculator.getInstance().weiToEther(tx.getGasUsed() * tx.getGasprice()))
                         + " " + ExchangeCalculator.getInstance().getMainCurreny().getShorty()
         );
-        amount.setText((tx.getAmount() > 0 ? "+ " : "- ") + Math.abs(tx.getAmount()) + " Ξ");
+        amount.setText((tx.getAmount() > 0 ? "+ " : "- ") + Math.abs(tx.getAmount()) + " ETHO");
         amount.setTextColor(c.getResources().getColor(tx.getAmount() > 0 ? R.color.etherReceived : R.color.etherSpent));
         amountfiat.setText(ExchangeCalculator.getInstance().displayUsdNicely(
                 ExchangeCalculator.getInstance().convertToUsd(tx.getAmount()))
