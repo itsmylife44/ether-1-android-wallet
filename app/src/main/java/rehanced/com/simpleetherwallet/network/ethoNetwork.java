@@ -26,7 +26,7 @@ import rehanced.com.simpleetherwallet.utils.TokenIconCache;
 
 public class ethoNetwork implements NetworkAPI {
     private String token;
-    private String apiUrl = "https://ether1trust.europool.me/";
+    private String apiUrl = "https://api.etholabs.org/";
 
     ethoNetwork(String theToken)
     {
