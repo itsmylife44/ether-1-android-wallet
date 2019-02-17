@@ -10,8 +10,8 @@ android {
         applicationId "com.ether1.trust.wallet"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 37
-        versionName "1.0.7"
+        versionCode 38
+        versionName "1.0.8"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
